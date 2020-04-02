@@ -5,3 +5,11 @@
     height: 50vh;
     object-fit: cover;
 }
+
+.row {
+    margin-top: 20px;
+}
+
+#footer {
+    margin-top: 20px;
+}

@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
             <a class="navbar-brand" href="#">Shady Acres Estate</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="#">About</a>
                 <a class="nav-item nav-link" href="#">Facilities</a>
                 <a class="nav-item nav-link" href="#">Contact</a>
@@ -31,6 +33,10 @@
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
+        <div id="heading">
+          <h1>Shady Acres Estate</h1>
+          <h3>Luxury Living at its best</h3>
+        </div>    
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="golfestate.jpg" class="d-block w-100" alt="...">
@@ -63,41 +69,24 @@
 
       <div class="row w-75 mx-auto text-center">
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">World Class Golf Course</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+          <div id="golf-card-container">
+            <div id="golf-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title">World Class Golf Course</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Luxury Living</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, possimus repudiandae distinctio eius dolor dolores et veritatis velit laudantium aspernatur laborum molestias? Provident eveniet quibusdam qui officia. Laboriosam eaque sequi delectus dolore qui? Id, laborum quos? Placeat iure, fugiat harum eius suscipit rerum voluptatum laboriosam perspiciatis similique doloribus cupiditate maxime!</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row w-75 mx-auto text-center">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Excellent Security</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In repudiandae unde consequuntur deleniti eveniet dignissimos a saepe fugiat nemo tempore dolore porro, animi voluptates eaque quibusdam, architecto distinctio labore iure! Veritatis commodi est ipsam dicta laboriosam, consectetur, fugiat at mollitia nulla laborum ex. Necessitatibus aliquid accusamus quasi, sapiente vero cupiditate.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Shopping</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quibusdam? Voluptatem, ut autem eius amet repellat libero recusandae quisquam laudantium inventore perspiciatis impedit, corrupti aliquam nisi. Aut libero fuga nihil numquam quo veniam doloremque laboriosam! Placeat sapiente aperiam, rem nulla ad earum nihil expedita. Exercitationem architecto placeat at quod ullam.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+          <div id="luxury-card-container">
+            <div id="luxury-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title">Luxury Living</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
             </div>
           </div>
         </div>
@@ -105,26 +94,55 @@
 
       <div class="row w-75 mx-auto text-center">
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Restaurants</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem repellat alias consectetur voluptates maxime maiores impedit veniam? Recusandae optio dicta aliquid pariatur temporibus, atque cumque labore quos! Vitae dicta ab deserunt ea ex expedita voluptates mollitia placeat numquam blanditiis praesentium est facilis ratione reiciendis illo non, assumenda voluptas esse?</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+          <div id="security-card-container">
+            <div id="security-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title">Excellent Security</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Medical Facilities</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, eligendi? Quos molestias ratione quaerat illo consectetur sint totam a dignissimos. Consectetur beatae error porro magnam commodi animi praesentium inventore alias. Libero, molestias! Quam, doloremque mollitia ut obcaecati fuga perferendis praesentium, odio consequuntur aliquam itaque reprehenderit molestias soluta corrupti nemo dolores.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
+          <div id="shopping-card-container">
+            <div id="shopping-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title">Shopping</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row w-75 mx-auto text-center">
+        <div class="col-sm-6">
+          <div id="restaurant-card-container">
+            <div id="restaurant-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title">Restaurants</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div id="medical-card-container">
+            <div id="medical-card" class="card">
+              <div class="card-body">
+                <h5 class="card-title">Medical Facilities</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto natus, ex eum veniam cum commodi inventore velit ipsum reiciendis sed, ipsam placeat in ratione repudiandae est! Aperiam consequatur dolor assumenda sint quae, tempore architecto laborum? Dolorum totam fugiat, repudiandae sed natus nulla nihil? Pariatur explicabo sunt quibusdam incidunt aliquam.</p>
+                <a href="#" class="btn btn-success">Read More</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     
-      <nav id="footer" class="nav justify-content-center text-light bg-dark">
+      <nav id="footer" class="nav justify-content-center text-light bg-success">
         <p class="nav-link" href="#">Copyright shadyacresestate.com</a>
       </nav>
 

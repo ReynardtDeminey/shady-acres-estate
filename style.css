@@ -13,3 +13,129 @@
 #footer {
     margin-top: 20px;
 }
+
+#heading {
+    z-index: 20;
+    position: absolute;
+    margin: auto;
+    left: 25%;
+    top: 25%;
+    color: white;
+}
+
+#heading h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+}
+
+#heading h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+#golf-card-container {
+    overflow: hidden;
+}
+
+#golf-card {
+    background: linear-gradient(rgba(10, 80, 1, 0.8), rgba(10, 80, 1, 0.8)), url("golfestate.jpg");    
+    background-size: 110%;
+    background-position: center;
+    transition: all 4s ease-in;
+    color: white;
+    
+}
+
+#golf-card:hover {
+    background-size: 150%;
+}
+
+#luxury-card-container {
+    overflow: hidden;
+}
+
+#luxury-card {
+    background: linear-gradient(rgba(10, 80, 1, 0.8), rgba(10, 80, 1, 0.8)), url("home.jpg");    
+    background-size: 110%;
+    background-position: center;
+    transition: all 4s ease-in;
+    color: white;
+    
+}
+
+#luxury-card:hover {
+    background-size: 150%;
+}
+
+#security-card-container {
+    overflow: hidden;
+}
+
+#security-card {
+    background: linear-gradient(rgba(10, 80, 1, 0.8), rgba(10, 80, 1, 0.8)), url("security.jpg");    
+    background-size: 110%;
+    background-position: center;
+    transition: all 4s ease-in;
+    color: white;
+    
+}
+
+#security-card:hover {
+    background-size: 150%;
+}
+
+#shopping-card-container {
+    overflow: hidden;
+}
+
+#shopping-card {
+    background: linear-gradient(rgba(10, 80, 1, 0.8), rgba(10, 80, 1, 0.8)), url("shopping.jpg");    
+    background-size: 110%;
+    background-position: center;
+    transition: all 4s ease-in;
+    color: white;
+    
+}
+
+#shopping-card:hover {
+    background-size: 150%;
+}
+
+#restaurant-card-container {
+    overflow: hidden;
+}
+
+#restaurant-card {
+    background: linear-gradient(rgba(10, 80, 1, 0.8), rgba(10, 80, 1, 0.8)), url("restaurant.jpg");    
+    background-size: 110%;
+    background-position: center;
+    transition: all 4s ease-in;
+    color: white;
+    
+}
+
+#restaurant-card:hover {
+    background-size: 150%;
+}
+
+#medical-card-container {
+    overflow: hidden;
+}
+
+#medical-card {
+    background: linear-gradient(rgba(10, 80, 1, 0.8), rgba(10, 80, 1, 0.8)), url("medical.jpg");    
+    background-size: 110%;
+    background-position: center;
+    transition: all 4s ease-in;
+    color: white;
+    
+}
+
+#medical-card:hover {
+    background-size: 150%;
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+}
